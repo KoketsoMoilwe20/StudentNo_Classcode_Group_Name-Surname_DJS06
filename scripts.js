@@ -13,3 +13,6 @@ const products = [
   { product: 'coffee', price: 10 },
   { product: 'tea', price: '' },
 ]
+
+//1. Logging each name and province to the console
+names.forEach(name => console.log(name));
