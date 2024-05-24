@@ -59,3 +59,7 @@ console.log(provinces.map(province => province.toUpperCase()));
 
 // Logs the array of name lengths
 console.log(names.map(name => name.length));
+
+// Logs the alphabetically sorted provinces
+console.log([...provinces].sort());
+
