@@ -63,3 +63,6 @@ console.log(names.map(name => name.length));
 // Logs the alphabetically sorted provinces
 console.log([...provinces].sort());
 
+// Logs the count of remaining provinces after filtering out those containing "Cape"
+console.log(provinces.filter(province => !province.includes('Cape')).length);
+
