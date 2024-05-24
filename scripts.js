@@ -14,5 +14,12 @@ const products = [
   { product: 'tea', price: '' },
 ]
 
-//1. Logging each name and province to the console
+//Logging each name and province to the console
 names.forEach(name => console.log(name));
+
+provinces.forEach(province => console.log(province));
+
+//Log each name with its matching province
+names.forEach((name, index) => {
+  console.log(`${name} (${provinces[index]})`);
+});
