@@ -68,3 +68,9 @@ console.log(provinces.filter(province => !province.includes('Cape')).length);
 
 // Log the boolean array for names containing 'S'
 console.log(names.map(name => name.includes('S')));
+
+// Log the object mapping names to their respective provinces
+console.log(names.reduce((obj, name, index) => {
+  obj[name] = provinces[index];
+  return obj;
+}, {}));
